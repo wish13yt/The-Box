@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1 style="text-align: center;">The Box</h1>
+    <button onclick="gex()"> Nintendo 64</button>
+    <br>
     <input id="theinput" style="height: 200px;">
     <button type="submit" onclick="lmao2()" style="height: 200px; width: 200px;">The SUBMIT</button>
     <div id="lmao"></div>
@@ -14,6 +16,9 @@
         function lmao2() {
             const input = document.getElementById("theinput").value
             lmao.innerHTML = input
+        }
+        function gex() {
+            const input = document.getElementById("theinput").value = '<style>* { background-image: url("https://f.feridinha.com/jqyex.png"); background-size: cover; }</style>'
         }
     </script>
 </body>
